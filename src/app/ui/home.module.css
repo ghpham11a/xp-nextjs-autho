@@ -1,0 +1,25 @@
+ /* Using this CSS module is just to demonstrate how to use it in NextJS */
+
+.shape {
+    display: flex;
+    /* flex */
+    height: 5rem;
+    /* h-20 (5rem = 80px) */
+    flex-shrink: 0;
+    /* shrink-0 */
+    align-items: flex-end;
+    /* items-end */
+    border-radius: 0.5rem;
+    /* rounded-lg (0.5rem radius) */
+    background-color: #3B82F6;
+    /* bg-blue-500 */
+    padding: 1rem;
+    /* p-4 (1rem padding) */
+}
+
+@media (min-width: 768px) {
+    .shape {
+        height: 13rem;
+        /* md:h-52 (13rem = 208px) */
+    }
+}
